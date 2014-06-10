@@ -1,0 +1,28 @@
+<h5>Choose your carrier:</h5>
+    <select class="mainlist" data-zd-type="select_menu">
+      <option value="question">UPS</option>
+      <option value="problem">FedEx</option>
+      <option value="incident">DHL</option>
+      <option value="task">USPS</option>
+    </select>
+
+<div class="trackingbuttons">
+    <button type="submit" class="go-to-ups btn btn-success btn-large" onclick="window.open('http://wwwapps.ups.com/WebTracking/processRequest?HTMLVersion=5.0&Requester=NES&AgreeToTermsAndConditions=yes&loc=en_US&tracknum={{data}}.z_eCTAid=ct1_eml_Tracking')">Go to UPS</button>
+</div>
+
+<div class="trackingbuttons">
+    <button type="submit" class="go-to-ups btn btn-success btn-large" onclick="window.open('https://www.fedex.com/fedextrack/?tracknumbers={{data}}&cntry_code=us&language=en')">Go to FedEx</button>
+</div>
+
+<div class="trackingbuttons">
+    <button type="submit" class="go-to-ups btn btn-success btn-large" onclick="window.open('http://www.dhl.com/content/g0/en/express/tracking.shtml?brand=DHL&AWB={{data}}%0D%0A')">Go to DHL</button>
+</div>
+
+<div class="trackingbuttons">
+    <button type="submit" class="go-to-ups btn btn-success btn-large" onclick="window.open('https://tools.usps.com/go/TrackConfirmAction_input?origTrackNum={{data}}')">Go to USPS</button>
+</div>
+
+<div class="linkbottom">
+    <a href="#" class="enternewid" >Have a different shipment ID?</a>
+</div>
+

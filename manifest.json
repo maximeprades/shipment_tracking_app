@@ -1,0 +1,20 @@
+{
+  "author": {
+    "name": "Zendesk",
+    "email": "support@zendesk.com"
+  },
+
+  "location": ["ticket_sidebar", "new_ticket_sidebar"],
+  "defaultLocale": "en",
+  "private": false,
+  "singleInstall": true,
+  "frameworkVersion": "1.0",
+  "parameters": [
+    {
+      "name": "shipment_id_field",
+      "type": "number",
+      "required": true
+    }
+  ],
+  "version": "1.0"
+}

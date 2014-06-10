@@ -1,0 +1,22 @@
+.trackingbuttons {
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+h5 {
+	margin-top: 9px;
+}
+.gotolink {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.mainlist {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.linkbottom {
+	text-align: right;
+	padding-top: 15px;
+}
